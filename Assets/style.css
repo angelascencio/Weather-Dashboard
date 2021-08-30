@@ -1,6 +1,12 @@
 *{
     font-family: sans-serif;
 }
+.topMargin{
+    margin: 15px 0px;
+}
+.bottomMargin{
+    margin: 10px 0px;
+}
 header{
     display: flex;
     align-items: center;
@@ -17,4 +23,25 @@ h1{
     display: flex;
     flex-direction: column;
     align-content: center;
+}
+.results{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.borderA{
+    border: solid 4px black;
+    border-radius: 3px;
+}
+#cities{
+    border-top: solid 3px black;
+}
+#mainSelection{
+    border: 3px black;
+    box-sizing: border-box;
+    background-color: cadetblue;
+}
+#smallBox{
+    width: 150px;
+    min-height: 200px;
+    margin: 10px 25px;
 }
